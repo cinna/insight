@@ -119,14 +119,9 @@ def JsonParse(fileobj, buffersize=1024*1):
                 	yield hashtags, time                   
                 buffer = '' #buffer[index:]                
             except ValueError as e:
-                # second try extract info (CustomDecoder2) otherwise it's tweeter's artifacts
 				# JSON loader fails if there are more than one tweets in one line                
-                #print(e)
-                buffer = '}'
-                hashtags, time, parse_error = CustomDecoder2(line)                         
-                if (not parse_error):
-                	yield hashtags, time                   
-                buffer = '' #buffer[index:]          
+                print(e)
+  
 
                 
 

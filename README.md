@@ -1,9 +1,10 @@
 
-Insight Data Engineering - Coding Challenge
+Python - Coding Challenge
 ===========================================================
 
-The solution to the [coding challenge](https://github.com/InsightDataScience/coding-challenge) for the Insight Data Engineering Program implemented in Python 3.5.
+The solution to the [coding challenge]for the Insight Data Engineering Program implemented in Python 3.5.
 
+Buil a graph of hashtages in incoming tweets and calculate the average degree of the graph.
 
 
 
